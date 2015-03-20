@@ -22,7 +22,7 @@ setup(
     description=(
         'An app to let you include browsable OGC WMS '
         'maps on your django web site.'),
-    long_description=open('README.md').read(),
+    long_description=open('../README.md').read(),
     install_requires=[
         "Django==1.7",
         "django-leaflet==0.14.1",
